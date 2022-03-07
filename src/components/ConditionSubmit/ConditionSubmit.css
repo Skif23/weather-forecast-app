@@ -1,0 +1,66 @@
+.formContainer {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+.formContainer h1 {
+    padding: 5%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .container label {
+    display:inline-block;
+    width: 20%;
+    font-size: large;
+    text-align: left;
+    margin: 1%;
+    padding-left: 15%;
+  }
+
+  .container input {
+    width: 30%;
+    font-size: medium;
+    display: inline;
+    float: right;
+    margin-right: 20%;
+  }
+
+  .container select {
+    width: 31%;
+    font-size: medium;
+    display: inline;
+    float: right;
+    margin-right: 20%;
+  }
+
+  .container textarea {
+    width: 30%;
+    font-size: medium;
+    display: inline;
+    float: right;
+    margin-right: 20%;
+  }
+
+  .submitButton {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 20%;
+    margin: 5% 40%;
+	padding: 2%;
+	background: darkcyan;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+  }
+
+  .submitButton:hover {
+    background: #2EBC99;
+  }
